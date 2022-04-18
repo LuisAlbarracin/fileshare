@@ -1,0 +1,7 @@
+
+<FilesMatch "(?i)\.(gif|jpe?g|png)$">
+	ForceType none
+	Header unset Content-Disposition
+</FilesMatch>
+
+
